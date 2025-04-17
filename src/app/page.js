@@ -10,7 +10,7 @@ export default function Home() {
         <nav className="space-x-6 flex">
           <a href="http://localhost:3000/" className="nav-link">Home</a>
           <a href="#" className="nav-link">About Us</a>
-          <a href="/life-tracker" className="nav-link">Life Tracker</a>
+          <a href="/life-tracker" className="nav-link">Goal Tracker</a>
           <a href="#" className="nav-link">Motivation</a>
           <a href="#" className="nav-link">Contact Us</a>
         </nav>

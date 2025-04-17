@@ -38,15 +38,14 @@ export default function LifeTrackerPage() {
         <h1 className="wellnessCenter text-4xl font-bold text-[#4b3e2e]">🌱 Wellness Center</h1>
         <nav className="space-x-6 flex">
           <a href="http://localhost:3000/" className="nav-link">Home</a>
-          <a href="#" className="nav-link">About Us</a>
-          <a href="#" className="nav-link">Life Tracker</a>
+          <a href="#" className="nav-link">Goal Tracker</a>
           <a href="#" className="nav-link">Motivation</a>
           <a href="#" className="nav-link">Contact Us</a>
 
         </nav>
       </div>
 
-      <h1 className="title text-center text-3xl font-semibold mb-6">🌿 Life Progress Tracker</h1>
+      <h1 className="title text-center text-3xl font-semibold mb-6">🌿 Goal Progress Tracker</h1>
       <p className="text-center text-gray-600 mb-6">Track your wellness goals, set intentions, and reflect.</p>
 {/* Info Section */}
 <div className="mainContent bg-[#f3e9dd] p-6 rounded-xl mb-10">
@@ -82,10 +81,10 @@ export default function LifeTrackerPage() {
             onComplete={handleComplete}
           />
         ))}
+              <AddTaskForm onAdd={handleAddGoal} />
+
       </div>
 
-      {/* Add Task Form */}
-      <AddTaskForm onAdd={handleAddGoal} />
     </div>
   );
 }
