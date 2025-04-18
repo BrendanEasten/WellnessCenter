@@ -11,7 +11,7 @@ export default function Home() {
           <a href="http://localhost:3000/" className="nav-link">Home</a>
           <a href="#" className="nav-link">About Us</a>
           <a href="/life-tracker" className="nav-link">Life Tracker</a>
-          <a href="#" className="nav-link">Motivation</a>
+          <a href="/quotes" className="nav-link">Motivation</a>
           <a href="#" className="nav-link">Contact Us</a>
         </nav>
       </div>
