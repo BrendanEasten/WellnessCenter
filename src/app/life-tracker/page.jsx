@@ -4,6 +4,7 @@ import GoalCard from '../components/LifeTracker/GoalCard';
 import AddTaskForm from '../components/LifeTracker/AddTaskForm';
 import ProgressBar from '../components/LifeTracker/ProgressBar';
 
+
 const presetGoals = [
   { id: 1, title: 'Drink 2L of water', description: 'Stay hydrated throughout the day.', started: false, completed: false },
   { id: 2, title: 'Exercise 30 Mins!', description: 'Exercise or take a walk.', started: false, completed: false },
@@ -41,7 +42,7 @@ export default function LifeTrackerPage() {
           <a href="#" className="nav-link">About Us</a>
           <a href="#" className="nav-link">Life Tracker</a>
           <a href="#" className="nav-link">Motivation</a>
-          <a href="#" className="nav-link">Contact Us</a>
+          <a href="/contact" className="nav-link">Contact Us</a>
 
         </nav>
       </div>
