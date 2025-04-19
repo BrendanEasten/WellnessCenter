@@ -1,0 +1,36 @@
+.bottom {
+    margin-bottom: 1rem;
+}
+
+.text-gray-700 {
+    text-align: start;
+}
+
+button {
+    background-color: #56c1a4;
+    color: white;
+    padding: 12px;
+    border-radius: 25px;
+    width: 200px;
+    font-size: 1rem;
+    border: none;
+    transition: background-color 0.3s ease;
+}
+
+.button:hover {
+    background-color: #3b9d87;
+}
+
+.button:disabled {
+    background-color: #d3d3d3;
+}
+
+.mainContent {
+    max-width: 1024px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.footer {
+    max-width: 1024px;
+}
