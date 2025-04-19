@@ -1,8 +1,16 @@
+.home-container {
+    max-width: 1000px;
+    margin: 0 auto;
+    padding: 2rem;
+    font-family: "Segoe UI", sans-serif;
+    color: #3d3d3d;
+}
+
 .bottom {
     margin-bottom: 1rem;
 }
 
-.text-gray-700 {
+.ps {
     text-align: start;
 }
 

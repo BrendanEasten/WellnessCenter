@@ -1,27 +1,13 @@
 "use client";
 
+import Nav from "../components/Nav";
 import "./page.css";
 
 export default function AboutUs() {
     return (
         <div className="about-container">
-            <nav className="space-x-6 flex">
-                <a href="/" className="nav-link">
-                    Home
-                </a>
-                <a href="/about" className="nav-link">
-                    About Us
-                </a>
-                <a href="/life-tracker" className="nav-link">
-                    Life Tracker
-                </a>
-                <a href="#" className="nav-link">
-                    Motivation
-                </a>
-                <a href="#" className="nav-link">
-                    Contact Us
-                </a>
-            </nav>
+            <h1 className="wellnessCenter">🌱 Wellness Center</h1>
+            <Nav />
             <header className="about-header">
                 <h1 className="title">🌱 About the Wellness Center</h1>
                 <p className="subtitle">
