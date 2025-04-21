@@ -73,7 +73,7 @@ export default function Home() {
                             your path. Discover something that speaks to you —
                             and keep moving forward.
                         </p>
-                        <a href="/motivation">
+                        <a href="/quotes">
                             <button>Get Inspired</button>
                         </a>
                     </div>
