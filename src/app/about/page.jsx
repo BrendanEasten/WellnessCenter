@@ -1,6 +1,7 @@
 "use client";
 
 import Nav from "../components/Nav";
+import TimelineSlider from "../components/TimelineSlider";
 import "./page.css";
 
 export default function AboutUs() {
@@ -15,6 +16,8 @@ export default function AboutUs() {
                     growth.
                 </p>
             </header>
+
+            <TimelineSlider />
 
             <section className="about-section">
                 <div className="about-text">
